@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.studdybuddy.finalstudybuddy.ProfileActivity">
+
+    <EditText
+
+
+        android:id="@+id/firstName"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:hint="Enter First Name"
+        android:padding="10dp" />
+    <EditText
+
+
+        android:id="@+id/lastName"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:hint="Enter last name"
+        android:padding="10dp" />
+    <EditText
+
+
+        android:id="@+id/grade"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:hint="Enter grade level"
+        android:padding="10dp" />
+    <EditText
+
+
+        android:id="@+id/UserName"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:hint="Enter User name"
+        android:padding="10dp" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:background="@drawable/action_button_style"
+        android:textColor="#fff"
+        android:id="@+id/compBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Complete"
+        />
+
+</LinearLayout>

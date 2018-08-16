@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+
+    android:layout_height="match_parent"
+    tools:context="com.studdybuddy.finalstudybuddy.Classlist">
+
+
+    <Button
+        android:id="@+id/Cbtn1"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="111dp"
+        android:background="@drawable/action_button_style"
+        android:text="TINFO 200"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Cbtn2"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Cbtn1"
+        android:layout_alignStart="@+id/Cbtn1"
+        android:layout_below="@+id/Cbtn1"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/action_button_style"
+        android:text="TINFO 240"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Cbtn3"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Cbtn2"
+        android:layout_alignStart="@+id/Cbtn2"
+        android:layout_below="@+id/Cbtn2"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/action_button_style"
+        android:text="TINFO 220"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+</RelativeLayout>

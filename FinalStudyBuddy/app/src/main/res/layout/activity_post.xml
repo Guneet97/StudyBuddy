@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+
+        android:layout_height="match_parent"
+        tools:context="com.studdybuddy.finalstudybuddy.PostActivity">
+
+        <EditText
+            android:id="@+id/textTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20dp"
+            android:hint="Post Title"
+            android:padding="10dp"
+
+            android:textColor="#fff"
+
+            android:textColorHint="#fff"
+            />
+
+        <EditText
+            android:id="@+id/textDesc"
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20dp"
+            android:textColorHint="#fff"
+            android:textColor="#fff"
+            android:background="@drawable/action_button_style2"
+            android:hint="Post Description"
+            android:inputType="text|textMultiLine"
+            android:padding="10dp" />
+
+        <Button
+            android:layout_marginTop="30dp"
+            android:id="@+id/postBtn"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/action_button_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Post"/>
+
+
+
+    </LinearLayout>
+</ScrollView>
